@@ -1,0 +1,51 @@
+body{
+    font-family: Arial,Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: azure;
+}
+
+h1{
+    color:#333;
+}
+
+#inputData {
+    padding: 17px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+button{
+    padding: 10px;
+    margin: 2px;
+    width: 40px;
+    cursor: pointer;
+    background-color: rgb(58, 227, 58);
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color:darkgreen;
+}
+
+#result{
+    font-size: 30px;
+
+}
+
+#ans{
+    color: darkblue;
+}
+
+#del{
+    background-color:rgb(244, 31, 31);
+    color: white;
+}
+#del:hover{
+    background-color: rgb(202, 8, 8);
+}
